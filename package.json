@@ -1,0 +1,20 @@
+{
+    "name": "building-an-api",
+    "version": "1.0.0",
+    "description": "The project consists of an API for project control. A CRUD of users and projects. The database was hosted on MongoDB, on the Free Plan. You can use Postman to do the tests on your local machine - localhost://5000 or another port of your choice.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js",
+        "dev": "node --watch src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "dotenv": "^16.4.5",
+        "fastify": "^4.26.2",
+        "mongoose": "^8.3.2"
+    }
+}
